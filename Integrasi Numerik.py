@@ -1,6 +1,7 @@
 import numpy as np
 import time
 
+# KODE SUMBER
 def simpson_13(f, a, b, N):
     if N % 2 == 1:
         raise ValueError("N harus genap untuk metode Simpson 1/3")
@@ -18,6 +19,7 @@ def simpson_13(f, a, b, N):
 def f(x):
     return 4 / (1 + x**2)
 
+# KODE TESTING
 # Untuk variasi nilai dari N
 N_values = [10, 100, 1000, 10000]
 
